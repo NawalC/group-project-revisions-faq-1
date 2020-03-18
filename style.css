@@ -26,16 +26,22 @@ input {
 /* Buttons */
 .button {
   padding: 0.25em 0.5em;
-  border: none;
+  border: 1px solid #db446f;
   border-radius: 2px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(82, 7, 7, 0.1);
   background: #db446f;
   color: #fff;
   text-decoration: none;
-  cursor: pointer;
+  cursor: pointer; 
+}
+.button:first-child {
+  color: #000;
+  font-weight: bold;
+  border: 15px solid #db446f;
+ 
 }
 
-/* Site title and top navigation */
+/* Site title and top navigation */ 
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -78,9 +84,9 @@ input {
   text-align: right;
 }
 
-.question--self { 
-  border-top-style: solid; 
-  border-top-width: 4px; 
+.question--self {
+  border-top-style: solid;
+  border-top-width: 4px;
   border-top-color: #db446f;
 }
 
