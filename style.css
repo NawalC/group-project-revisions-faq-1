@@ -37,11 +37,17 @@ input {
 .button:first-child {
   font-weight: bold;
   font-size: 24px;
-  border: 15px solid #db446f;
- 
+  border: 15px solid #db446f; 
+}
+.button:nth-child(2) {
+  border-style: inset;
+  border-color: #ffffff;
+  border-width: 8px;
 }
 
-/* Site title and top navigation */ 
+/* Site title and top navigation */
+
+
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -93,5 +99,6 @@ input {
 /* Input area to add a new question */
 .ask-question {
   padding: 0.5rem 1rem;
+
   text-align: center;
 }
