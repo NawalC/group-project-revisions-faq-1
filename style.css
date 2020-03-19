@@ -35,8 +35,8 @@ input {
   cursor: pointer; 
 }
 .button:first-child {
-  color: #000;
   font-weight: bold;
+  font-size: 24px;
   border: 15px solid #db446f;
  
 }
