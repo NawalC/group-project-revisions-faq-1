@@ -26,15 +26,19 @@ input {
 /* Buttons */
 .button {
   padding: 0.25em 0.5em;
-  border: none;
+  border: 1px solid #db446f;
   border-radius: 2px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(82, 7, 7, 0.1);
   background: #db446f;
   color: #fff;
   text-decoration: none;
-  cursor: pointer;
+  cursor: pointer; 
 }
-
+.button:first-child {
+  font-weight: bold;
+  font-size: 24px;
+  border: 15px solid #db446f; 
+}
 .button:nth-child(2) {
   border-style: inset;
   border-color: #ffffff;
@@ -42,6 +46,8 @@ input {
 }
 
 /* Site title and top navigation */
+
+
 .site-header {
   display: flex;
   justify-content: space-between;
