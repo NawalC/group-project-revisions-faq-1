@@ -32,12 +32,13 @@ input {
   background: #db446f;
   color: #fff;
   text-decoration: none;
-  cursor: pointer; 
+  cursor: pointer;
 }
+/* Leida and Nawal task*/
 .button:first-child {
   font-weight: bold;
   font-size: 24px;
-  border: 15px solid #db446f; 
+  border: 15px solid #db446f;
 }
 .button:nth-child(2) {
   border-style: inset;
@@ -46,7 +47,6 @@ input {
 }
 
 /* Site title and top navigation */
-
 
 .site-header {
   display: flex;
